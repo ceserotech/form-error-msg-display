@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="" class="myform">
+
+            <div class="boxx">
+                <div class="namecont">
+                    <div class="innerbox">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="" id="fname">
+
+                    </div>
+                    <div class="error-message" id="firstNameError"></div>
+                </div>
+                <div class="namecont">
+                    <div class="innerbox">
+                        <label for="fname">Last Name</label>
+                        <input type="text" class="" id="lname">
+                    </div>
+                    <div class="error-message" id="lastNameError"></div>
+                </div>
+            </div>
+
+            <div class="emailcont">
+                <div class="box">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="" id="email" class="">
+
+                </div>
+                 <div class="error-message" id="emailError"></div>
+            </div>
+
+
+            <div class="boxxx">
+                <div class="radiocont">
+                    <div class="innerbox" id="dd">
+                        <input type="radio" name="gender" id="inputs">
+                        <label for="male">Male</label>
+
+                    </div>
+                     <div class="error-message" id="queryTypeError"></div>
+                </div>
+
+                <div class="radiocont">
+                    <div class="innerbox" id="dd">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                     <div class="error-message" id="queryTypeError"></div>
+                </div>
+
+            </div>
+
+            <div class="emailcont">
+                <div class="box">
+                    <label for="meassage">Meassage</label>
+                    <textarea name="" id="message" cols="4" rows="5"></textarea>
+                    
+                </div>
+                 <div class="error-message" id="messageError"></div>
+            </div>
+
+
+            <div class="checkcont">
+                <div class="checkbox">
+                    <input type="checkbox" id="consent">
+                    <label for="fname">I consent to being contacted by the team</label>
+
+                </div>
+                <div class="error-message" id="consentError"></div>
+            </div>
+
+
+
+            <div class="box">
+                <button>SUBMIT</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="formval.js"></script>
+</body>
+
+</html>
